@@ -1,0 +1,33 @@
+body{
+    font-family: 'Rokkitt';
+}
+
+.container{
+    width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info{
+    width: 100%;
+    padding: 0;
+    text-align: left;
+}
+
+.city{
+    padding: 5px 15px;
+    background-color: aquamarine;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.city i{
+    font-size: 16px;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
